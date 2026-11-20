@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# tooling
+.idea/
+.vscode/
+.DS_Store
+
+# this repo keeps results/*.json and results/*.png committed (they are the
+# measured evidence); add nothing else here without a reason

@@ -1,0 +1,18 @@
+{
+  "config": {
+    "steps": 300,
+    "batch_size": 64,
+    "seq_len": 16,
+    "vocab": 32,
+    "lr": 0.001,
+    "seed": 0,
+    "eval_n": 512,
+    "out": "results/baseline_bag.json"
+  },
+  "final": {
+    "loss": 2.8112034451520076,
+    "token_acc": 0.1505126953125,
+    "exact_match": 0.0
+  },
+  "params": 271616
+}
